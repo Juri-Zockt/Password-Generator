@@ -87,11 +87,13 @@ if 'Ja' in nummern:
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomnumber + randomletters + randombigletter + randomsonder + randomnumber1 + randomletters1 + randombigletter1 + randomsonder1 + randomletters2 + randomsonder2)
+                time.sleep(5)
             if 'Nein' in sondern:
                 time.sleep(1)
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomnumber + randomletters + randombigletter + randomnumber2 + randomnumber1 + randomletters1 + randombigletter1 + randomletters3 + randomletters2 + randombigletter2)
+                time.sleep(5)
         if 'Nein' in groß:
             time.sleep(1)
             sondern = input("Sollen Sonderzeichen rein? ")
@@ -100,11 +102,13 @@ if 'Ja' in nummern:
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomnumber + randomletters + randomnumber3 + randomsonder + randomnumber1 + randomletters1 + randomsonder3 + randomsonder1 + randomletters2 + randomsonder2)
+                time.sleep(5)
             if 'Nein' in sondern:
                 time.sleep(1)
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomnumber + randomletters + randomletters4 + randomnumber2 + randomnumber1 + randomletters1 + randomnumber3 + randomletters3 + randomletters2 + randomnumber4)
+                time.sleep(5)
     if 'Nein' in buchstaben:
         time.sleep(1)
         groß = input("Sollen Großbuchstaben rein? ")
@@ -116,11 +120,13 @@ if 'Ja' in nummern:
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomnumber + randomnumber2 + randombigletter + randomsonder + randomnumber1 + randomsonder3 + randombigletter1 + randomsonder1 + randomnumber4 + randomsonder2)
+                time.sleep(5)
             if 'Nein' in sondern:
                 time.sleep(1)
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomnumber + randomnumber3 + randombigletter + randomnumber2 + randomnumber1 + randombigletter3 + randombigletter1 + randombigletter4 + randomnumber4 + randombigletter2)
+                time.sleep(5)
         if 'Nein' in groß:
             time.sleep(1)
             sondern = input("Sollen Sonderzeichen rein? ")
@@ -129,11 +135,13 @@ if 'Ja' in nummern:
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomnumber + randomsonder4 + randomnumber3 + randomsonder + randomnumber1 + randomsonder5 + randomnumber9 + randomsonder1 + randomnumber6 + randomsonder2)
+                time.sleep(5)
             if 'Nein' in sondern:
                 time.sleep(1)
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomnumber + randomnumber5 + randomnumber6 + randomnumber2 + randomnumber1 + randomnumber7 + randomnumber3 + randomnumber8 + randomnumber9 + randomnumber4)
+                time.sleep(5)
 if 'Nein' in nummern:
     time.sleep(1)
     buchstaben = input("Sollen Kleinbuchstaben rein? ")
@@ -148,11 +156,13 @@ if 'Nein' in nummern:
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomletters3 + randomletters + randombigletter + randomsonder + randomletters4 + randomletters1 + randombigletter1 + randomsonder1 + randomletters2 + randomsonder2)
+                time.sleep(5)
             if 'Nein' in sondern:
                 time.sleep(1)
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randombigletter3 + randomletters + randombigletter + randomletters4 + randombigletter4 + randomletters1 + randombigletter1 + randomletters3 + randomletters2 + randombigletter2)
+                time.sleep(5)
         if 'Nein' in groß:
             time.sleep(1)
             sondern = input("Sollen Sonderzeichen rein? ")
@@ -161,11 +171,13 @@ if 'Nein' in nummern:
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomsonder4 + randomletters + randomletters4 + randomsonder + randomletters3 + randomletters1 + randomsonder3 + randomsonder1 + randomletters2 + randomsonder2)
+                time.sleep(5)
             if 'Nein' in sondern:
                 time.sleep(1)
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomletters5 + randomletters + randomletters4 + randomletters6 + randomletters7 + randomletters1 + randomletters8 + randomletters3 + randomletters2 + randomletters9)
+                time.sleep(5)
     if 'Nein' in buchstaben:
         time.sleep(1)
         groß = input("Sollen Großbuchstaben rein? ")
@@ -177,11 +189,13 @@ if 'Nein' in nummern:
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomsonder4 + randombigletter4 + randombigletter + randomsonder + randombigletter2 + randomsonder3 + randombigletter1 + randomsonder1 + randomletters2 + randomsonder2)
+                time.sleep(5)
             if 'Nein' in sondern:
                 time.sleep(1)
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randombigletter5 + randombigletter6 + randombigletter + randombigletter8 + randombigletter9 + randombigletter3 + randombigletter1 + randombigletter4 + randombigletter7 + randombigletter2)
+                time.sleep(5)
         if 'Nein' in groß:
             time.sleep(1)
             sondern = input("Sollen Sonderzeichen rein? ")
@@ -190,6 +204,7 @@ if 'Nein' in nummern:
                 print("Dein Passwort: ")
                 time.sleep(1)
                 print(randomsonder4 + randomsonder5 + randomsonder6 + randomsonder + randomsonder7 + randomsonder8 + randomsonder3 + randomsonder1 + randomsonder9 + randomsonder2)
+                time.sleep(5)
             if 'Nein' in sondern:
                 time.sleep(1)
                 print("Dein Passwort: ")
